@@ -20,7 +20,7 @@ body:
     attributes:
       label: Contact Discord Handle
       description: Enter your team's contact Discord handle
-      placeholder: @discord
+      placeholder: discord
     validations:
       required: true
   - type: input
@@ -28,7 +28,7 @@ body:
     attributes:
       label: Team Member Discord Handles
       description: Enter the handles of your team members separated by commas (if you have any)
-      placeholder: @foo1bar, @foo2@bar...
+      placeholder: foo1bar, foo2bar...
     validations:
       required: false
   - type: textarea
