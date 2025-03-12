@@ -1,26 +1,18 @@
-name: Hackathon Submission
+name: Web3 Hackathon NZ Submission
 description: Add a hackathon submission
-title: "[Project]: "
+title: "[Project Name]: "
 labels: ["submission", "needreview"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for participating in the hackathon and creating your submission!
+        Enter the name of your project. Remember you can edit and resubmit your submission as things evolve and change up until the deadline on Sunday March 23.
   - type: input
-    id: name
-    attributes:
-      label: Project Name
-      description: Enter the name of your project
-      placeholder: web3nz
-    validations:
-      required: true
-  - type: input
-    id: team-email
+    id: team-discord
     attributes:
       label: Contact Discord Handle
-      description: Enter your team's contact Discord handle
-      placeholder: discord
+      description: Enter your team's contact discord handle
+      placeholder: [@discord]
     validations:
       required: true
   - type: input
@@ -28,7 +20,7 @@ body:
     attributes:
       label: Team Member Discord Handles
       description: Enter the handles of your team members separated by commas (if you have any)
-      placeholder: foo1bar, foo2bar...
+      placeholder: [@foo1bar, @foo2bar...]
     validations:
       required: false
   - type: textarea
