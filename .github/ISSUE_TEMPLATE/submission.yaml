@@ -8,7 +8,7 @@ body:
       value: |
         Enter the name of your project. Remember you can edit and resubmit your submission as things evolve and change up until the deadline on Sunday March 23.
   - type: input
-    id: team-discord
+    id: contact-discord
     attributes:
       label: Contact Discord Handle
       description: Enter your team's contact discord handle
