@@ -16,19 +16,19 @@ body:
     validations:
       required: true
   - type: input
-    id: email
+    id: team-email
     attributes:
-      label: Email Address
-      description: Enter your email address
-      placeholder: foo@bar.com
+      label: Contact Discord Handle
+      description: Enter your team's contact Discord handle
+      placeholder: @discord
     validations:
       required: true
   - type: input
-    id: team-emails
+    id: team-discord
     attributes:
-      label: Email Addresses of Team Members
-      description: Enter the email addresses of you team members separated by commas (if you have any)
-      placeholder: foo1@bar.com, foo2@bar.com, foo3@bar.com,...
+      label: Team Member Discord Handles
+      description: Enter the handles of your team members separated by commas (if you have any)
+      placeholder: @foo1bar, @foo2@bar...
     validations:
       required: false
   - type: textarea
@@ -36,7 +36,7 @@ body:
     attributes:
       label: Project Description
       description: What have you built during the hackathon?
-      placeholder: The project I created is...
+      placeholder: Our project...
     validations:
       required: true
   - type: textarea
@@ -44,7 +44,7 @@ body:
     attributes:
       label: How it's made
       description: How have you built this project? Mention the technologies/methods/platforms you used to build your project
-      placeholder: The technologies I used...
+      placeholder: We used...
     validations:
       required: true
   - type: dropdown
