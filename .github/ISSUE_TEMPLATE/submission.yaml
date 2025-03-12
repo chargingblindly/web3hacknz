@@ -10,9 +10,9 @@ body:
   - type: input
     id: name
     attributes:
-      label: Name
-      description: Enter your full name
-      placeholder: Aditya Oberai
+      label: Project Name
+      description: Enter the name of your project
+      placeholder: web3nz
     validations:
       required: true
   - type: input
@@ -40,17 +40,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: inspiration
+    id: how-its-made
     attributes:
-      label: Inspiration behind the Project
-      description: What is the story behind this project? Why did you choose to work on this specific idea?
-      placeholder: The reason I chose this idea/project was...
-    validations:
-      required: true
-  - type: textarea
-    id: tech-stack
-    attributes:
-      label: Tech Stack
+      label: How it's made
       description: How have you built this project? Mention the technologies/methods/platforms you used to build your project
       placeholder: The technologies I used...
     validations:
@@ -61,20 +53,21 @@ body:
       label: Hackathon Track
       description: What hackathon track are you opting in?
       options:
-        - Track 1
-        - Track 2
-        - Track 3
-        - Track 4
+        - Fire Eyes / Governance
+        - NZDD
+        - Base
+        - NZ Real World Problem
+        - AI
     validations:
       required: true
   - type: input
     id: project-link
     attributes:
-      label: Project Repo
+      label: Source Code
       description: Share a public repo link of your project
       placeholder: https://github.com/code-capture/CodeCapture-Xamarin
     validations:
-      required: true
+      required: false
   - type: input
     id: demo-link
     attributes:
@@ -90,11 +83,3 @@ body:
       description: Any other feedback, queries or information, you would like to share with us?
     validations:
       required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Rules and Code of Conduct
-      description: By submitting this issue, you agree to follow our Rules and Code of Conduct.
-      options:
-        - label: I agree to follow this hackathon's Rules and Code of Conduct
-          required: true
