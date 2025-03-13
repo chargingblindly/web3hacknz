@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Enter the name of your project. Remember you can edit and resubmit your submission as things evolve and change up until the deadline on Sunday March 23.
+        Remember you can edit and resubmit your submission as things evolve and change up until the deadline on Sunday March 23.
   - type: input
     id: contact-discord
     attributes:
@@ -49,7 +49,6 @@ body:
         - NZDD
         - Base
         - NZ Real World Problem
-        - AI
     validations:
       required: true
   - type: input
