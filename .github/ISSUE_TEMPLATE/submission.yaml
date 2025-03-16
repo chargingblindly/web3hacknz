@@ -67,6 +67,16 @@ body:
       placeholder: https://www.youtube.com/watch?v=9IBaX1avYWc
     validations:
       required: false
+  - type: checkboxes
+    id: ai-usage
+    attributes:
+      label: AI Integration
+      description: Does your project integrate with AI as part of its functionality?
+      options:
+        - label: Yes, our project integrates with AI
+          required: false
+        - label: No, our project does not use AI
+          required: false
   - type: textarea
     id: anything-else
     attributes:
