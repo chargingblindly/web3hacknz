@@ -84,11 +84,3 @@ body:
       description: Any other feedback, queries or information, you would like to share with us?
     validations:
       required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Terms and Conditions
-      description: By submitting this issue, you agree to follow our Rules and Code of Conduct.
-      options:
-        - label: I agree to follow this hackathon's Rules and Code of Conduct
-          required: true
